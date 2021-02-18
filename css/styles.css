@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Buttons */
+.dowload-btn {
+  margin: 5% 3% 5%;
+}
+
+/* title image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section  */
+#features {
+  padding: 3% 15%;
+  position: relative;
+}
+
+.feature-item {
+  padding: 8% 0 4%;
+}
+
+.features-icon {
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+/* testimonial Section */
+#testimonials {
+  padding: 3% 15%;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+/* Call TO Action Section */
+/* Footer */
+.socials {
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: translate(0);
+  }
+}
+@media (max-width: 600px) {
+  .testimonial-text {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .big-heading,
+  .section-heading,
+  .price-text {
+    font-size: 2rem;
+  }
+}
